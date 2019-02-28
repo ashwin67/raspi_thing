@@ -12,3 +12,9 @@ Task 2: Create sound changes based on the touch / mouse data
 * pip3 install pyaudio
 * pip3 install numpy
 * python3 soundboard.py
+
+Task 3: Create Chords etc using Fluidsynth
+* pip3 install pyaudio
+* Download https://github.com/nwhitehead/pyfluidsynth
+* sudo python3 setup.py install
+* python3 chord.py
