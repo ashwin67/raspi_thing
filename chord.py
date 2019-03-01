@@ -18,7 +18,7 @@ fl = fluidsynth.Synth()
 s = numpy.append(s, fl.get_samples(44100 * 1))
 
 sfid = fl.sfload("/usr/share/sounds/sf2/FluidR3_GM.sf2")
-fl.program_select(0, sfid, 0, 1)
+fl.program_select(0, sfid, 0, 100)
 
 fl.noteon(0, 76, 100)
 fl.noteon(0, 83, 100)

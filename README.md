@@ -18,3 +18,6 @@ Task 3: Create Chords etc using Fluidsynth
 * Download https://github.com/nwhitehead/pyfluidsynth
 * sudo python3 setup.py install
 * python3 chord.py
+
+Task 4: Change some code and run to get chord sounds from the wacom
+* python chordboard.py
